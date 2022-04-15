@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Card, Container } from "react-bootstrap";
+import Currency from "./Currency";
+import "./App.css";
 
 function App() {
+  const [currency] = useState(Currency);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="p-5">
+      <h2>Currencies</h2>
+      <div className="count">
+        {currency.map((item) => (
+          <Card style={{ width: "18rem" }} key={item.id}>
+            <Card.Body>
+              <Card.Title>{item.title}</Card.Title>
+              <div className="count">
+                {item.currencies.map((arrayItem, index) => (
+                  <p className="m-3 p-2 " key={index}>
+                    {arrayItem}
+                  </p>
+                ))}
+              </div>
+            </Card.Body>
+          </Card>
+        ))}
+      </div>
+    </Container>
   );
 }
 
