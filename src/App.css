@@ -3,3 +3,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.currency {
+  background: #fff;
+  border-radius: 16px;
+  margin: 12px 0 0 12px;
+}
+
+.currency2 {
+  background: rgba(18, 190, 56, 0.05);
+  border-radius: 8px;
+}

@@ -10,12 +10,12 @@ function App() {
       <h2>Currencies</h2>
       <div className="count">
         {currency.map((item) => (
-          <Card style={{ width: "18rem" }} key={item.id}>
+          <Card className="currency" style={{ width: "18rem" }} key={item.id}>
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
               <div className="count">
                 {item.currencies.map((arrayItem, index) => (
-                  <p className="m-3 p-2 " key={index}>
+                  <p className="m-3 p-2  currency2" key={index}>
                     {arrayItem}
                   </p>
                 ))}
