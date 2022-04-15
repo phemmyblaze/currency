@@ -1,7 +1,7 @@
 const Currency = [
   {
     id: "1",
-    title: "Steam",
+    title: "HP",
     currencies: [
       "usd",
       "gbp",
@@ -17,12 +17,12 @@ const Currency = [
   },
   {
     id: "2",
-    title: "Apple Universal",
+    title: "Parkers",
     currencies: ["usd", "gbp", "eur", "aud", "cad", "nzd", "chf"],
   },
   {
     id: "3",
-    title: "iTunes",
+    title: "USSD",
     currencies: [
       "usd",
       "gbp",
@@ -59,7 +59,7 @@ const Currency = [
   },
   {
     id: "4",
-    title: "Google Play",
+    title: "Palm play",
     currencies: [
       "usd",
       "gbp",
@@ -100,7 +100,7 @@ const Currency = [
   },
   {
     id: "6",
-    title: "Ebay",
+    title: "Uba",
     currencies: [
       "usd",
       "gbp",
@@ -116,7 +116,7 @@ const Currency = [
   },
   {
     id: "7",
-    title: "Sephora",
+    title: "Wema",
     currencies: [
       "usd",
       "gbp",
@@ -132,7 +132,7 @@ const Currency = [
   },
   {
     id: "8",
-    title: "American Express",
+    title: "British Airways",
     currencies: [
       "usd",
       "gbp",
@@ -148,7 +148,7 @@ const Currency = [
   },
   {
     id: "9",
-    title: "Vanilla",
+    title: "Eden Life",
     currencies: [
       "usd",
       "gbp",
@@ -164,7 +164,7 @@ const Currency = [
   },
   {
     id: "10",
-    title: "Walmart",
+    title: "Chaka",
     currencies: [
       "usd",
       "gbp",
@@ -180,7 +180,7 @@ const Currency = [
   },
   {
     id: "11",
-    title: "Nordstrom",
+    title: "Risevest",
     currencies: [
       "usd",
       "gbp",
@@ -196,7 +196,7 @@ const Currency = [
   },
   {
     id: "12",
-    title: "Target",
+    title: "Glo",
     currencies: [
       "usd",
       "gbp",
@@ -212,7 +212,7 @@ const Currency = [
   },
   {
     id: "13",
-    title: "Offgamers",
+    title: "Etisalat",
     currencies: [
       "usd",
       "gbp",
@@ -228,7 +228,7 @@ const Currency = [
   },
   {
     id: "14",
-    title: "Xbox",
+    title: "Airtel",
     currencies: [
       "usd",
       "gbp",
@@ -244,7 +244,7 @@ const Currency = [
   },
   {
     id: "15",
-    title: "Macy’s",
+    title: "Diamond",
     currencies: [
       "usd",
       "gbp",
@@ -260,7 +260,7 @@ const Currency = [
   },
   {
     id: "16",
-    title: "Razer Gold",
+    title: "Gold",
     currencies: [
       "usd",
       "gbp",
@@ -276,7 +276,7 @@ const Currency = [
   },
   {
     id: "17",
-    title: "JCPenny",
+    title: "Lontor",
     currencies: [
       "usd",
       "gbp",
@@ -292,7 +292,7 @@ const Currency = [
   },
   {
     id: "18",
-    title: "Foot Locker",
+    title: "Chelsea",
     currencies: [
       "usd",
       "gbp",
@@ -308,7 +308,7 @@ const Currency = [
   },
   {
     id: "19",
-    title: "Nike",
+    title: "Uefa",
     currencies: [
       "usd",
       "gbp",
@@ -324,7 +324,7 @@ const Currency = [
   },
   {
     id: "20",
-    title: "Visa",
+    title: "America Express",
     currencies: [
       "usd",
       "gbp",
@@ -340,7 +340,7 @@ const Currency = [
   },
   {
     id: "21",
-    title: "Target Visa",
+    title: "Visa",
     currencies: [
       "usd",
       "gbp",
@@ -356,7 +356,7 @@ const Currency = [
   },
   {
     id: "22",
-    title: "Walmart Visa",
+    title: "Audiomack",
     currencies: [
       "usd",
       "gbp",
@@ -372,7 +372,7 @@ const Currency = [
   },
   {
     id: "23",
-    title: "Greendot",
+    title: "Boomplay",
     currencies: [
       "usd",
       "gbp",
@@ -388,7 +388,7 @@ const Currency = [
   },
   {
     id: "24",
-    title: "Best Buy ",
+    title: "Spotify",
     currencies: [
       "usd",
       "gbp",
@@ -404,7 +404,7 @@ const Currency = [
   },
   {
     id: "25",
-    title: "Play Station",
+    title: "Intel",
     currencies: [
       "usd",
       "gbp",
@@ -420,7 +420,7 @@ const Currency = [
   },
   {
     id: "26",
-    title: "Home Depot",
+    title: "Nigeria Idol",
     currencies: [
       "usd",
       "gbp",
@@ -436,7 +436,7 @@ const Currency = [
   },
   {
     id: "27",
-    title: "Starbucks",
+    title: "Hp",
     currencies: [
       "usd",
       "gbp",
@@ -452,7 +452,7 @@ const Currency = [
   },
   {
     id: "28",
-    title: "Netflix",
+    title: "Apple",
     currencies: [
       "usd",
       "gbp",
@@ -468,7 +468,7 @@ const Currency = [
   },
   {
     id: "29",
-    title: "Happy",
+    title: "Tecno",
     currencies: [
       "usd",
       "gbp",
@@ -484,7 +484,7 @@ const Currency = [
   },
   {
     id: "30",
-    title: "Lowe’s",
+    title: "Cowrywise",
     currencies: [
       "usd",
       "gbp",
@@ -500,7 +500,7 @@ const Currency = [
   },
   {
     id: "31",
-    title: "Gamestop",
+    title: "Piggyvest",
     currencies: [
       "usd",
       "gbp",
@@ -516,7 +516,7 @@ const Currency = [
   },
   {
     id: "32",
-    title: "Uber",
+    title: "Flutterwave",
     currencies: [
       "usd",
       "gbp",
@@ -532,7 +532,7 @@ const Currency = [
   },
   {
     id: "33",
-    title: "Adiddas",
+    title: "Puma",
     currencies: [
       "usd",
       "gbp",
@@ -548,7 +548,7 @@ const Currency = [
   },
   {
     id: "34",
-    title: "G2A",
+    title: "Air Peace",
     currencies: [
       "usd",
       "gbp",
@@ -564,7 +564,7 @@ const Currency = [
   },
   {
     id: "35",
-    title: "Hotels",
+    title: "Delta",
     currencies: [
       "usd",
       "gbp",
@@ -580,55 +580,7 @@ const Currency = [
   },
   {
     id: "36",
-    title: "Finish Line",
-    currencies: [
-      "usd",
-      "gbp",
-      "eur",
-      "aud",
-      "cad",
-      "nzd",
-      "chf",
-      "brl",
-      "pol",
-      "hkd",
-    ],
-  },
-  {
-    id: "37",
-    title: "Amazon",
-    currencies: [
-      "usd",
-      "gbp",
-      "eur",
-      "aud",
-      "cad",
-      "nzd",
-      "chf",
-      "brl",
-      "pol",
-      "hkd",
-    ],
-  },
-  {
-    id: "38",
-    title: "Amazon",
-    currencies: [
-      "usd",
-      "gbp",
-      "eur",
-      "aud",
-      "cad",
-      "nzd",
-      "chf",
-      "brl",
-      "pol",
-      "hkd",
-    ],
-  },
-  {
-    id: "39",
-    title: "Amazon",
+    title: "Qatar",
     currencies: [
       "usd",
       "gbp",
