@@ -10,6 +10,13 @@
 }
 
 .bold {
-  border: 3px solid black;
+  border: 3px solid rgb(49, 110, 62);
   padding: 10px;
+}
+
+.type {
+  color: rgba(175, 138, 34, 0.9);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
 }

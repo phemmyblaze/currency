@@ -7,7 +7,7 @@ function App() {
   const [currency] = useState(Currency);
   return (
     <Container className="p-5">
-      <h2>Currencies</h2>
+      <h2 className="type">Currencies</h2>
       <div className="count p-5">
         {currency.map((item) => (
           <Card
